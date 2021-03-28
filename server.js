@@ -8,7 +8,7 @@ const path = require('path');
 const API_PORT = process.env.PORT || 3001;
 const app = express();
 const router = express.Router();
-const db = require('./db');
+//const db = require('./db');
 const indexRouter = require('./routes/index');
 const greetingRouter = require('./routes/greeting');
 const emailRouter = require('./routes/email');
@@ -20,7 +20,7 @@ const emailRouter = require('./routes/email');
 
 
 // connects our back end code with the database
-db();
+//db();
 
 
 
